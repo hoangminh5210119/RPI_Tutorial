@@ -27,8 +27,8 @@ how to connect your Pi with your Accessories
 - Nhập mật khẩu cho thiết bị. Mật khẩu `1` (Nếu lần đầu tiên kết nối sẽ yêu cầu lưu key access (nhấn yes))
 - Sau khi kết nối xong tiến hành cài đặt các gói phần mềm bên dưới để chạy code
 - các gói cài đặt và version từng gói [ở đây](./piplist.txt)
-- dùng pip để cài đặt (python3)
-- [tham khảo ở đây](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/0)
+- Dùng pip để cài đặt (python3)
+- [tham khảo cài đặt hệ điều hành ở đây](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/0)
 
 # Danh sách linh kiện
 
