@@ -27,6 +27,7 @@ how to connect your Pi with your Accessories
 
 - [relay](./relay.md)
 - [servo](./servo.md)
+- [keypad](./keypad.md)
 - [lcd tft 1.44inch ST7735 SPI](./tft_1.44_ST7735_SPI.md)
 
 # Raspberry pi pinout images
