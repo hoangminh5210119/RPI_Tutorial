@@ -5,6 +5,10 @@ how to connect your Pi with your Accessories
 
 - Tested on Pi 3, P3B+, Pi zero 2W, Pi 4B
 
+# Sơ đồ kết nối
+
+![](./images/main.drawio.png)
+
 # Phần mềm yêu cầu
  ## Windows
  - [Vscode](https://code.visualstudio.com/) dùng để kết nối ssh vào raspberry pi và code.
