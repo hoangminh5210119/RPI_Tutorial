@@ -45,7 +45,7 @@ how to connect your Pi with your Accessories
 # Lưu đồ giải thuật
 
 - [Lưu đồ giải thuật hình ảnh](./flowchart.md)
-- [Lưu đồ giải thuật draw.io](./flowchart/main.drawio)
+- [Lưu đồ giải thuật draw.io](./flowchart/)
 
 # Danh sách linh kiện
 
