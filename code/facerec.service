@@ -1,0 +1,19 @@
+[Unit]
+Description=face rec
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+#Environment=VIRTUAL_ENV=/home/pi/env
+#Environment=PATH=/home/pi/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+#Environment=PYTHONPATH=$PYTHONPATH:/home/pi/tensorflow1/models/research:/home/pi/tensorflow1/models/research/slim
+#ExecStart=/home/pi/env/bin/python -u /home/pi/GassistPi/src/main.py --project_id 'raspberrypi4-6a42c' --device_model_id 'raspberrypi4-6a42c-googleassistant-gfz3px'
+ExecStart=/home/pi/Desktop/run_fast.sh
+WorkingDirectory=/home/pi/
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target

@@ -34,6 +34,14 @@ how to connect your Pi with your Accessories
 - Dùng pip để cài đặt (python3)
 - [tham khảo cài đặt hệ điều hành ở đây](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/0)
 
+# Chương trình tự khởi động cùng hệ thống
+
+- Tạo 1 file bash để chạy code
+- Tạo 1 service để chạy file bash
+- enable file service, và chạy.
+- [File run code](./code/run_fast.sh). File này sẽ gọi trực tiếp tới code python
+- [File service](./code/facerec.service). File này chạy file bash và khởi động cùng hệ thống.
+
 # Danh sách linh kiện
 
 - Raspberry pi 3.
