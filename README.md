@@ -42,6 +42,32 @@ how to connect your Pi with your Accessories
 - [File run code](./code/run_fast.sh). File này sẽ gọi trực tiếp tới code python
 - [File service](./code/facerec.service). File này chạy file bash và khởi động cùng hệ thống.
 
+## Cách tạo
+
+- gõ `sudo nano /lib/systemd/system/facerec.service` để tạo file 
+- Copy nội dung bên dưới vào file 
+
+```
+[Unit]
+Description=face rec
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+ExecStart=/home/pi/Desktop/run_fast.sh
+WorkingDirectory=/home/pi/
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
+```
+- Save lại.
+- Gõ lệnh `sudo systemctl enable facerec.service` để tạo
+- Gõ lệnh  `sudo systemctl start facerec.service` để chạy service
+
 # Lưu đồ giải thuật
 
 - [Lưu đồ giải thuật hình ảnh](./flowchart.md)
