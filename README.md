@@ -42,6 +42,11 @@ how to connect your Pi with your Accessories
 - [File run code](./code/run_fast.sh). File này sẽ gọi trực tiếp tới code python
 - [File service](./code/facerec.service). File này chạy file bash và khởi động cùng hệ thống.
 
+# Lưu đồ giải thuật
+
+- [Lưu đồ giải thuật hình ảnh](./flowchart.md)
+- [Lưu đồ giải thuật draw.io](./flowchart/main.drawio)
+
 # Danh sách linh kiện
 
 - Raspberry pi 3.
